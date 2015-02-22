@@ -1,2 +1,40 @@
-# widgetkit-map-generator
-During some work for my client I had to create a Google Map using YooTheme's Widgetkit with around 40 locations.I created this program to parse the input data and create a json for the locations.
+# Widgetki Map Generator
+
+
+### What is it?
+
+Widgetki Map Generator is a program that creates json for the locations that YooTheme's WidgetKit need to display a map.
+
+### How does it work?
+
+The program uses two files  - an input file with names, latitudes and longitudes seperated by a semicolon each in its own line - see example - creates an output file json.txt with all of the locations  In current version it's not possible to pass any other arguments, so you have to copy/paste it into your database, however I plan to develop this project further on
+
+### What does it do?
+
+  - parses locations data form input
+  - creates a json record
+  - writes it to a txt file
+
+
+### Version
+0.1
+
+### Usage
+
+Run the program from command line, file data_input.txt has to be in the same directory
+
+### Todo's
+
+ - Passing parameters for maptype, id, name, settings, ... 
+ - Option to set icon
+ - Option to pass popup text for item
+ - Option to set location
+
+License
+----
+
+MIT
+
+### Author
+
+Robi Pritržnik
