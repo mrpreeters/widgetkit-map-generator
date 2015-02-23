@@ -25,11 +25,12 @@ Run the program from command line, file data_input.txt has to be in the same dir
 
 ### Todo's
 
- - Passing parameters for maptype, id, name, settings, ... 
- - Option to set icon
+ - Option to set icon for specific item
  - Option to pass popup text for item
  - Option to set location
+ - build for linux, mac os x
 
+ 
 License
 ----
 
